@@ -6,9 +6,43 @@
     <title>Digitális Képkeret</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-</head>
-<body>
-    <p>This is a template</p>    
     <script src='main.js'></script>
+  
+</head>
+<body>  
+    <div class="container">
+
+        <div class="row">
+            <div class="tablazat col-md-3">
+                <input id="url"   type="text" placeholder="URL">
+            </div>
+            <div class="tablazat col-md-3">
+                <input id="szelesseg" type="number" placeholder="Szélesség (px)">
+            </div>
+            <div class="tablazat col-md-3">
+                <input id="vastagsag" type="number" placeholder="Keret vastagsága (px)">
+            </div>
+            <div class="tablazat col-md-3">
+                <input id="szin" type="color">
+            </div>
+        </div>
+
+        <div >
+            <img id="kep" src="" alt="Várakozás az url-re...">
+        </div>
+
+        
+
+            <div id="footer">
+                <footer>
+                    <p>A weboldalt készítette: <b>Varga Norbert 2/14T</b> </p>
+                    <button id="gomb">Sötétmód</button>
+                </footer>
+            </div>
+            
+       
+    
+    </div>
+   
 </body>
 </html>

@@ -1,0 +1,25 @@
+img{
+    display: block;
+    margin: auto;
+}
+
+body{
+    padding: 20px;
+}
+
+#footer{
+    text-align: center;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+input{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.tablaza{
+}
